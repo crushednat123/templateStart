@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "N5CEhFZZ81af54w2RejYLWIl5L+iGGA2f5sysmQNT3IbJrmAMEts1ths2M+pCpLUF73IhaMYudK/538J3dc8EQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mizya\\Desktop\\ДИПЛОМ\\Library\\Library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mizya\\.nuget\\packages\\fontawesome.sharp\\5.15.4\\fontawesome.sharp.5.15.4.nupkg.sha512"
+  ],
+  "logs": []
+}

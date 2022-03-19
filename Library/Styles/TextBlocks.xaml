@@ -1,0 +1,38 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--Текст первых букв имени и фамилии -->
+    <Style TargetType="TextBlock" x:Key="tbNameAndSurname">
+        <Setter Property="Foreground" Value="{StaticResource TextColor}"/>
+        <Setter Property="FontSize" Value="{StaticResource Sizes22}"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="3 0 0 2"/>
+        <Setter Property="FontFamily" Value="{StaticResource BaseFont}"/>
+    </Style>
+
+
+    <!--Текст имени и фамилии -->
+    <Style TargetType="TextBlock" x:Key="tbNameSurname">
+        <Setter Property="Foreground" Value="{StaticResource TextColorNameSurname}"/>
+        <Setter Property="FontSize" Value="{StaticResource Sizes15}"/>
+        <Setter Property="Margin" Value="0 0 0 5"/>
+        <Setter Property="FontFamily" Value="{StaticResource BaseFont}"/>
+    </Style>
+
+
+    <!--Текст номер версии ПО -->
+    <Style TargetType="TextBlock" x:Key="tbNumberVersion">
+        <Setter Property="Foreground" Value="{StaticResource TextColorVersionNumber}"/>
+        <Setter Property="FontSize" Value="{StaticResource Sizes11}"/>
+        <Setter Property="FontFamily" Value="{StaticResource BaseFont}"/>
+    </Style>
+
+    <!--Цвет текста в меню у кнопок-->
+    <Style TargetType="TextBlock" x:Key="menuButtonText">
+        <Setter Property="FontSize" Value="{StaticResource Sizes16}"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="{Binding Path=Foreground, RelativeSource={RelativeSource FindAncestor,
+            AncestorType={x:Type Button}}}"/>
+    </Style>
+</ResourceDictionary>
